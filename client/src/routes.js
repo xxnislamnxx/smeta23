@@ -11,25 +11,29 @@ import {
      STAGES_ROUTE } from '../src/utils/consts.js'
 
 
-// export const authRoutes = [
-//     {
-//         path: ADMIN_ROUTE,
-//         Component: Admin
-//     },
-//     {
-//         path: USERLIST_ROUTE,
-//         Component: UserList
-//     },
-//     {
-//         path: PROJECT_ROUTE,
-//         Component: Project
-//     },
-//     {
-//         path: STATISTICS_ROUTE,
-//         Component: Statistics
-//     }
+export const authRoutes = [
+    {
+        path: PROJECT_ROUTE,
+        Component: Project
+    },
+    {
+        path: MATERIALS_ROUTE,
+        Component: Materials
+    },
+    {
+        path: TYPESOFWORK_ROUTE,
+        Component: Typesofwork
+    },
+    {
+        path: PREMISES_ROUTE,
+        Component: Premises
+    },
+    {
+        path: STAGES_ROUTE,
+        Component: Stages
+    }
 
-// ]
+]
 export const publicRoutes = [
     {
         path: PROJECT_ROUTE,

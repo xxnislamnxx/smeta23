@@ -1,6 +1,6 @@
 import React,{createContext} from 'react';
 import ReactDOM from 'react-dom/client';
-import './index';
+// import './index';
 import App from './App.js';
 import OtdelStore from './store/OtdelStore.js';
 
